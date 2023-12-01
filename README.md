@@ -11,3 +11,6 @@ TASK 1
 
 TASK 2
 >
+> Corrected mistakes in testThis function and wroated Bind function -> [click](https://jsbin.com/huviqosata/1/edit?js,console)
+>
+>Corrected mistakes and using call, apply -> [click](https://jsbin.com/bodogulazo/1/edit?js,console)
