@@ -21,9 +21,10 @@ TASK 3
 > Input field auto copying -> [click](https://jsbin.com/casuhecula/3/edit?html,js,output)
 
 TASK 4
-> Say hi after 2 seconds -> [click](https://jsbin.com/casuhecula/edit?html,js,console)
+> Say hi after 2 seconds -> [click](https://jsbin.com/casuhecula/5/edit?html,js,console)
 >
-> Outputing "D1, D2 ... D9" -> [click](https://jsbin.com/casuhecula/5/edit?html,js,console)
+> Outputing "D1, D2 ... D9" -> [click](https://jsbin.com/diheyecuco/1/edit?html,js,console)
 >
 > Duration check, if it more than 2000 show error -> [click](https://jsbin.com/casuhecula/6/edit?html,js,console)
+> 
 > Using demoGithubUser function without recursion -> [click](https://jsbin.com/casuhecula/edit?html,js,console)
