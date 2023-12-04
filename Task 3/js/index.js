@@ -1,23 +1,36 @@
-const table = document.getElementById('statusTable');
-const rows = table.getElementsByTagName('tr');
+IDENTIFICATORS = {
+  table: 'statusTable',
+  row: 'tr',
+  element: 'td',
+  start: "Check started",
+  stop: "Status check stopped"
+}
+STATUSES = {
+  Pending: 'Pending',
+  Done: 'Done'
+}
+
+const table = document.getElementById(IDENTIFICATORS.table);
+const rows = table.getElementsByTagName(IDENTIFICATORS.row);
+
 let timerId;
 
 function startStatusCheck() {
-  console.log("Check started");
+  console.log(IDENTIFICATORS.start);
   setTimeout(() => {
     timerId = setInterval(checkStatus, 5000);
   }, 3000);
 }
 
 function checkStatus() {
-  console.log("Check started");
+  console.log(IDENTIFICATORS.start);
   let pendingFound = false;
 
   for (let i = 1; i < rows.length; i++) {
-    const statusCell = rows[i].getElementsByTagName('td')[1];
+    const statusCell = rows[i].getElementsByTagName(IDENTIFICATORS.element)[1];
 
-    if (statusCell.textContent.trim() === 'Pending') {
-      statusCell.textContent = 'Done';
+    if (statusCell.textContent.trim() === STATUSES.Pending) {
+      statusCell.textContent = STATUSES.Done;
       pendingFound = true;
       break;
     }
@@ -30,7 +43,7 @@ function checkStatus() {
 
 function stopStatusCheck() {
   clearInterval(timerId);
-  console.log("Status check stopped");
+  console.log(IDENTIFICATORS.stop);
 }
 
 
