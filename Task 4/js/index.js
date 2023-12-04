@@ -39,11 +39,6 @@ function delayCheck(duration) {
     }, duration);
   });
 }
-async function logHi()
-{
-  await console.log("Hi");
-}
-
 const minDelay = 2000;
 const maxDelay = 4000;
 const randomDelay = Math.random() * (maxDelay - minDelay) + minDelay;
