@@ -19,7 +19,7 @@ function checkStatus() {
     if (statusCell.textContent.trim() === 'Pending') {
       statusCell.textContent = 'Done';
       pendingFound = true;
-      break; // Выход из цикла после изменения статуса одного элемента
+      break;
     }
   }
 
