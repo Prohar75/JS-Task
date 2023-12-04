@@ -25,6 +25,6 @@ TASK 4
 >
 > Outputing "D1, D2 ... D9" -> [click](https://jsbin.com/diheyecuco/1/edit?html,js,console)
 >
-> Duration check, if it more than 2000 show error -> [click](https://jsbin.com/edit?html,js,console)
+> Duration check, if it more than 2000 show error -> [click](https://jsbin.com/casuhecula/edit?html,js,console)
 > 
-> Using demoGithubUser function without recursion -> [click](https://jsbin.com/edit?html,js,console)
+> Using demoGithubUser function without recursion -> [click](https://jsbin.com/furekocita/edit?html,js,console)
