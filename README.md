@@ -27,4 +27,4 @@ TASK 4
 >
 > Duration check, if it more than 2000 show error -> [click](https://jsbin.com/casuhecula/6/edit?html,js,console)
 > 
-> Using demoGithubUser function without recursion -> [click](https://jsbin.com/casuhecula/edit?html,js,console)
+> Using demoGithubUser function without recursion -> [click](https://jsbin.com/daqupeluwa/1/edit?html,js,console)
