@@ -1,14 +1,14 @@
 IDENTIFICATORS = {
-  table: 'statusTable',
-  row: 'tr',
-  element: 'td',
+  table: "statusTable",
+  row: "tr",
+  element: "td",
   start: "Check started",
-  stop: "Status check stopped"
-}
+  stop: "Status check stopped",
+};
 STATUSES = {
-  Pending: 'Pending',
-  Done: 'Done'
-}
+  Pending: "Pending",
+  Done: "Done",
+};
 
 const table = document.getElementById(IDENTIFICATORS.table);
 const rows = table.getElementsByTagName(IDENTIFICATORS.row);
@@ -46,15 +46,13 @@ function stopStatusCheck() {
   console.log(IDENTIFICATORS.stop);
 }
 
-
-
-
 let timeoutId;
 
 function handleInput(inputField) {
   clearTimeout(timeoutId);
   timeoutId = setTimeout(() => {
-    const otherFieldId = inputField.id === "textField1" ? "textField2" : "textField1";
+    const otherFieldId =
+      inputField.id === "textField1" ? "textField2" : "textField1";
     const otherField = document.getElementById(otherFieldId);
     otherField.value = inputField.value;
   }, 1000);
