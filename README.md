@@ -7,7 +7,7 @@ TASK 1
 >
 > REDUCE function -> [click](https://jsbin.com/wixotogasa/4/edit?js,console)
 >
-> FIND UNIQUE function -> [click](https://jsbin.com/votokuguwe/1/edit?js,console)
+> FIND UNIQUE function -> [click](https://jsbin.com/xetilovuti/1/edit?js,console)
 
 TASK 2
 >
