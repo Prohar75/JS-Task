@@ -38,19 +38,19 @@ const NOTES = [
 
 const polyfill = new Polyfill(NOTES);
 
-const filterArray = polyfill.customFilter((newArray) => newArray.isMarked);
+const filterArray = polyfill.customFilter((element) => element.isMarked);
 
 console.log(filterArray);
 
-const mapArray = polyfill.customMap((newArray) => ({
-  id: newArray.id,
-  title: newArray.title,
+const mapArray = polyfill.customMap((element) => ({
+  id: element.id,
+  title: element.title,
 }));
 
 console.log(mapArray);
 
 const ReduceArray = polyfill.customReduce(
-  (acc, newArray) => acc + newArray.pagesCount,
+  (acc, element) => acc + element.pagesCount,
   0
 );
 
