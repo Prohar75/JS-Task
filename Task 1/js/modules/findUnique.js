@@ -1,4 +1,5 @@
 export default function findUnique(arr) {
+  let resultValues = [];
   const countMap = {};
   for (const num of arr) {
     countMap[num] = (countMap[num] || 0) + 1;
@@ -6,7 +7,8 @@ export default function findUnique(arr) {
 
   for (const num in countMap) {
     if (countMap[num] === 1) {
-      return parseInt(num);
+      resultValues.push(num);
     }
   }
+  return resultValues;
 }
