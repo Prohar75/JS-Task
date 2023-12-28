@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>New Project</title> 
+		<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head> 
+	<body> 
+		<table id="statusTable" border="1">
+			<tr>
+			  <th>ID</th>
+			  <th>Status</th>
+			</tr>
+			<tr>
+			  <td>1</td>
+			  <td>Pending</td>
+			</tr>
+			<tr>
+			  <td>2</td>
+			  <td>Pending</td>
+			</tr>
+			<tr>
+			  <td>3</td>
+			  <td>Done</td>
+			</tr>
+		  </table>
+		  <button onclick="startStatusCheck()">Start Status Check</button>
+
+		  <form id="textForm">
+			<label for="textField1">Text Field 1:</label>
+			<input type="text" id="textField1" oninput="handleInput(this)">
+			<br>
+			<label for="textField2">Text Field 2:</label>
+			<input type="text" id="textField2" oninput="handleInput(this)">
+		  </form>
+   		<script src="./js/index.js"></script> 
+	</body> 
+</html> 
